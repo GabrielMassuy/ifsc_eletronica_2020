@@ -17,7 +17,7 @@ Utilizando um Amp.OP. LM324N e um TL082 monte dois circuitos na configuração d
 2 - Discutir os resultados.
 
 ### Resultados calculados
-Utilizando um AmpOp ideal, faz-se o cálculo do ganho de tensão "Av" do circuito.
+Utilizando um AmpOp ideal, fez-se o cálculo do ganho de tensão "Av" do circuito.
 
 ![p1conta1](/resources/images/relat1/p1conta.jpg)
 

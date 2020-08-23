@@ -25,20 +25,20 @@ Utilizando um AmpOp ideal, fez-se o cálculo do ganho de tensão "Av" do circuit
 ![tensaofonte](/resources/images/relat1/ondafonte.jpg)
 
 ### Circuito com LM324N
-Circuito montado no LTspice, utilizando o modelo da Texas Instruments.
+Circuito montado no LTspice, utilizando o modelo da Texas Instruments:
 
 ![Circuito1p1](/resources/images/relat1/p1cir1.jpg)
 
-Tensão de entrada e tensão de saída do circuito.
+Tensão de entrada e tensão de saída do circuito:
 
 ![p1onda1](/resources/images/relat1/p1onda1.jpg)
 
 ### Circuito com TL082
-Circuito montado no LTspice, utilizando o modelo da Texas Instruments.
+Circuito montado no LTspice, utilizando o modelo da Texas Instruments:
 
 ![Circuito2p1](/resources/images/relat1/p1cir2.jpg)
 
-Tensão de entrada e tensão de saída do circuito.
+Tensão de entrada e tensão de saída do circuito:
 
 ![p1onda2](/resources/images/relat1/p1onda2.jpg)
 

@@ -8,7 +8,9 @@ Medir o ganho de um amplificador inversor e verificar o efeito da saturação
 
 ###### Experimento:
 
-Utilizando um Amp.OP. LM324N e o TL082 monte dois amplificadores inversores utilize o resistor de realimentação com valor 20 kΩ e a resistência de entrada de 2kΩ. Utilize a alimentação simétrica de +/-12V.
+Utilizando um Amp.OP. LM324N e o TL082 monte dois amplificadores inversores.
+Utilize o resistor de realimentação com valor 20 kΩ e a resistência de entrada de 2kΩ.
+Utilize a alimentação simétrica de +/-12V.
 
 ###### Procedimento:
 
@@ -86,6 +88,6 @@ Tensão de saída do circuito com 1,06V de amplitude na tensão de entrada:
 O valor de tensão no ponto de saturação foi de 10,37 e -10,37 volts, portanto o valor da queda de tensão foi de 1,63 e -1,63 volts.
 
 ### Resultados
-Comparando o formato de onda da tensão de entrada e de saída foi possível observar como o sinal é amplificado e invertido utilizando o circuito do AmpOp Inversor. Nesta simulação foi possível verificar que o sinal de saída tinha a amplitude dez vezes maior do que o sinal de entrada, e os ciclos positivos do sinal de saída coincidiam com os ciclos negativos do sinal de entrada.
+Comparando o formato de onda da tensão de entrada e de saída foi possível observar como o sinal é amplificado e invertido utilizando o circuito do AmpOp Inversor. Nesta simulação foi possível verificar que o sinal de saída tinha a amplitude dez vezes maior do que o sinal de entrada e os ciclos positivos do sinal de saída coincidiam com os ciclos negativos do sinal de entrada, conforme foi calculado.
 
 Como a máxima amplitude do sinal da tensão de saída depende da tensão de alimentação do ampop, 12V neste caso, o maior valor de tensão esperado para o sinal saturado era de +-11,99V. Ao testarmos a situação de saturação, o ampop LM324N apresentou dois valores diferentes de tensão de saturação, 10,77V para o ciclo positivo e 11,32V para o ciclo negativo, enquanto que o ampop TL082 apresentou o valor de 10,37V para ambos ciclos. Isso mostra a importância de conhecer as informações técnicas do ampop que venha a ser utilizado em algum projeto, pois modelos diferentes apresentam diferenças na zona de saturação.

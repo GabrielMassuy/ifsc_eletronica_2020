@@ -29,7 +29,7 @@ Utilizando um AmpOp ideal, fez-se o cálculo do ganho de tensão "Av" do circuit
 
 ![p2conta](/resources/images/relat1/p2conta.jpg)
 
-O ganho calculado foi de -10. Como a tensão de saída é limitada pela tensão de alimentação do ampop, usou-se o valor de -11,9V na tensão de saída para simular o maior valor que a tensão de entrada poderia ter antes que o ampop saturasse.
+O ganho calculado foi de -10.
 
 ### Formato de onda da tensão de entrada
 ![tensoafonte](/resources/images/relat1/p2fonte.jpg)

@@ -83,7 +83,7 @@ Tensão de saída do circuito com 1,06V de amplitude na tensão de entrada:
 ![p2onda51](/resources/images/relat1/p2onda51.jpg)
 ![p2onda52](/resources/images/relat1/p2onda52.jpg)
 
-O valor de tensão no ponto de saturação foi de 10,37 e -10,37 volts, portanto o valor da queda de tensão foi de 1,63 e -1,63.
+O valor de tensão no ponto de saturação foi de 10,37 e -10,37 volts, portanto o valor da queda de tensão foi de 1,63 e -1,63 volts.
 
 ### Resultados
 Comparando o formato de onda da tensão de entrada e de saída foi possível observar como o sinal é amplificado e invertido utilizando o circuito do AmpOp Inversor. Nesta simulação foi possível verificar que o sinal de saída tinha a amplitude dez vezes maior do que o sinal de entrada, e os ciclos positivos do sinal de saída coincidiam com os ciclos negativos do sinal de entrada.

@@ -27,12 +27,11 @@ Utilize a alimentação simétrica de +/-12V.
 6 - Discutir os resultados.
 
 ### Resultados calculados
-**EDITAR**
 Utilizando um AmpOp ideal, fez-se o cálculo do ganho de tensão "Av" do circuito.
 
-[p2conta](/resources/images/relat1/p2conta.jpg)
+![p3conta](/resources/images/relat1/p3conta.jpg)
 
-O ganho calculado foi de XXXXX.
+O ganho calculado foi de 11 V/V.
 
 ### Formato de onda da tensão de entrada
 ![tensoafonte](/resources/images/relat1/p2fonte.jpg)

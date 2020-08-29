@@ -5,7 +5,7 @@
 ###### Experimento:
 
 Montar um circuito retificador de meia onda utilizando resistores de 270Ω.
-Utilizar capacitores de 330uF e 2200uF.
+Utilizar capacitores de 330μF e 2200μF.
 Utilizar fonte de tensão alternada 12Vp e 60 Hz.
 
 ###### Procedimento:
@@ -21,3 +21,23 @@ Utilizar fonte de tensão alternada 12Vp e 60 Hz.
 5 - Responder o que são resistores shunt e como determinar o valor do resistor para o circuito.
 
 ### Simulação: Circuito retificador de meia onda sem capacitor
+
+![p1circ1](/resources/images/relat2/p1circ1.jpg)
+
+### Formato de onda da tensão no enrolamento primário (Vf)
+
+![p1onda1](/resources/images/relat2/p1onda1.jpg)
+
+### Formato de onda da tensão no enrolamento secundário (Vin) e da tensão sobre o resistor (Vo)
+
+![p1onda2](/resources/images/relat2/p1onda2.jpg)
+![p1onda21](/resources/images/relat2/p1onda21.jpg)
+
+É possível perceber que a onda Vo tem amplitude um pouco menor do que a onda Vin. Isso acontece por conta da queda de tensão de 7,6V sobre o diodo para que o mesmo seja polarizado diretamente.
+
+### Valores de tensão média e eficaz da tensão sobre o secundário e o resistor (Vo)
+![p1onda3](/resources/images/relat2/p1onda3.jpg)
+![p1onda31](/resources/images/relat2/p1onda31.jpg)
+
+### Preenchimento da tabela com os valores solicitados
+![p1tabela1](/resources/images/relat2/p1tabela1.jpg)

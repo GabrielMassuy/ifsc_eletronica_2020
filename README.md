@@ -5,10 +5,10 @@ Relatórios e projetos da matéria de Eletrônica 2020/2
 Aluno: Gabriel Antônio Massuyama
 
 ## Relatório 1 - AmpOp
-<details>
- <summary>Clique aqui para acessar as partes do relatório 1</summary>
-
 ### [Parte 1: Seguidor de Tensão](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%201/parte1.md)
 ### [Parte 2: Amplificador Inversor](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%201/parte2.md)
 ### [Parte 3: Amplificador não-inversor](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%201/parte3.md)
 ### [Parte 4: Amplificador Subtrator](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%201/parte4.md)
+
+## Relatório 2 - Diodos
+### [Parte 1: Circuito Retificador de Meia Onda](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%202/parte1.md)

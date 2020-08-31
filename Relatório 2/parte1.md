@@ -16,9 +16,9 @@ Utilizar fonte de tensão alternada 12Vp e 60 Hz.
 
 3 - Após isso, substituir o capacitor de 330μF por um de 2200μF, observar o formato da onda da tensão de saída e anotar os valores de solicitados.
 
-4 - Montar um circuito para medir corrente utilizando ampop e resistor shunt.
+4 - Responder o que são resistores shunt e como determinar o valor do resistor para o circuito.
 
-5 - Responder o que são resistores shunt e como determinar o valor do resistor para o circuito.
+5 - Montar um circuito para medir corrente utilizando ampop e resistor shunt.
 
 ### Simulação: Circuito retificador de meia onda sem capacitor
 
@@ -49,6 +49,7 @@ Utilizar fonte de tensão alternada 12Vp e 60 Hz.
 O valor máximo da corrente foi de 41,65mA, o valor médio foi de 12,81mA e o valor eficaz foi de 28,48mA.
 
 ### Simulação: Circuito retificador de meia onda com capacitor de 330μF
+O diodo utilizado nas simulações foi o disponibilizado pelo próprio LTspice.
 ![p1circ2](/resources/images/relat2/p1circ2.jpg)
 
 #### Formato de onda da tensão no enrolamento secundário (Vin) e da tensão sobre o resistor (Vo)
@@ -94,7 +95,9 @@ Com o aumento da capacitância do capacitor do circuito o valor da tensão de ri
 
 O valor máximo da corrente foi de 9,90A, o valor médio foi de 522,57mA e o valor eficaz foi de 1,98A.
 
-###CIRCUITO DE CORRENTE
+### Resistores Shunt
+
+### Circuito para medir corrente
 
 ### Resultados
 ![p1ondaresult](/resources/images/relat2/p1ondaresult.jpg)
@@ -103,4 +106,4 @@ Nesta simulação foi observado que ao adicionarmos um capacitor conectado em pa
 
 ![p1ondaresult2](/resources/images/relat2/p1ondaresult2.jpg)
 
-Também foi visto que toda vez que o capacitor carrega existe um pico de corrente (sendo maior na primeira vez que é carregado) que aumenta dependendo do valor de capacitância do capacitor. Portanto é importante verificar se os demais componentes do circuito conseguem aguentar esses valores de corrente.
+Também foi visto que toda vez que o capacitor carrega existe um pico de corrente (sendo maior na primeira vez que é carregado) que aumenta dependendo do valor de capacitância do capacitor. Portanto é importante verificar se os demais componentes do circuito conseguem aguentar esses valores de corrente, mesmo sendo em um intervalo de tempo pequeno.

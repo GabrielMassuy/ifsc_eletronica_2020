@@ -8,19 +8,19 @@ Verificar as não idealidades dos ampops aplicadas em um circuito subtrator.
 
 ###### Experimento:
 
-Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores subtratores.
+Utilizando um Amp.OP. LM324N e o TL082 monte dois amplificadores subtratores.
 Use o resistor de realimentação  com valor 510kΩ e ganho igual á 10V/V.
 Utilize a alimentação simétrica de +/-12V.
 
 ###### Procedimento:
 
-1 - Simular os circuitos utilizando como sinal de entrada uma tensão contínua de 12V.
+1 - Depois de construir o circuito subtrator, simular os circuitos conforme  os exemplos dados.
 
 2 - Comparar os resultados da tensão de saída dos dois circuitos.
 
 3 - Verificar o valor da tensão de saída se a tensão de entrada for igual a 0.
 
-4 - Verificar o que acontece se um resistor extra de 10kΩ for adicionado em série com a entrada V1.
+4 - Verificar o que acontece se os dois resistores de 620Ω forem colocados na mesma entrada.
 
 5 - Discutir os resultados e justificar as dissimilaridades encontradas utilizando os dados do datasheet.
 
@@ -41,16 +41,21 @@ Circuito montado no LTspice, utilizando o modelo da Texas Instruments:
 
 ![p4circ2](/resources/images/relat1/p4circ2.jpg)
 
-### Simulação: Comparação do sinal de saída dos circuitos com LM324N E TL082
+### Simulação: Comparação do sinal de saída dos circuitos com LM324N e TL082
 
 ![p4onda1](/resources/images/relat1/p4onda1.jpg)
 
-A tensão de saída do circuito com o LM324N teve um valor de 10,91V, enquanto que a tensão de saída com o circuito com o TL082 foi de 0,98V.
+A tensão de saída do circuito com o LM324N teve um valor de 95,14mV, enquanto que a tensão de saída com o circuito com o TL082 foi de 130,01mV.
 
-### Simulação: Adição do resistor de 10kΩ
-
+### Simulação: Comparação do sinal de saída dos circuitos com LM324N e TL082, sendo a tensão de entrada 0V
 ![p4onda2](/resources/images/relat1/p4onda2.jpg)
 
-Após adicionar o resistor de 10kΩ, a tensão de saída do circuito com o LM324N teve um valor de 10,82V, enquanto que a tensão de saída com o circuito com o TL082 foi de 10,47V.
+Com a tensão de entrada igual a 0V, A tensão de saída do circuito com o LM324N foi de 31,43 mV e a tensão de saída do circuito com o LM324N foi de praticamente 0V.
 
-### Resultados
+### Simulação: Comparação do sinal de saída dos circuitos com LM324N e TL082, com os dois resistores de 620Ω na mesma entrada.
+![p4circ3](/resources/images/relat1/p4circ3.jpg)
+![p4onda3](/resources/images/relat1/p4onda3.jpg)
+
+Com a tensão de entrada igual a 0V, A tensão de saída do circuito com o LM324N foi de 31,43 mV e a tensão de saída do circuito com o LM324N foi de praticamente 0V.
+
+### Resultados (*falta fazer*)

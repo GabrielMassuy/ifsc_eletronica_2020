@@ -43,4 +43,4 @@ Tensão de entrada e tensão de saída do circuito:
 ![p1onda2](/resources/images/relat1/p1onda2.jpg)
 
 ### Resultados
-Como o circuito é um **seguidor de tensão**, era esperado que o ganho do circuito fosse 1. Isso é confirmado pelo resultado da parte calculada com Av = 1 e pelo resultado da parte simulada, onde o formato de onda da tensão de saída é praticamente o mesmo da tensão de entrada.
+Como o circuito é um **seguidor de tensão**, era esperado que o ganho do circuito fosse 1. Isso é confirmado pelo resultado da parte calculada com Av = 1 V/V e pelo resultado da parte simulada, onde o formato de onda da tensão de saída é praticamente o mesmo da tensão de entrada.

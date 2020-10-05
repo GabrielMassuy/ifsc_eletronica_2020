@@ -98,3 +98,8 @@ Nesta simulação foi observado que ao adicionarmos um capacitor conectado em pa
 Também foi visto que toda vez que o capacitor carrega existe um pico de corrente (sendo maior na primeira vez que é carregado) que aumenta dependendo do valor de capacitância do capacitor. Portanto é importante verificar se os demais componentes do circuito conseguem aguentar esses valores de corrente, mesmo sendo em um intervalo de tempo pequeno.
 
 ## Parte 1b:  Resistores Shunt
+Resistores Shunt são resistores usados para desviar a corrente de certos componentes ou para a medição de tensão e corrente.
+
+Para a medição de corrente do circuito deve-se conectar um resistor shunt com baixa resistência em série com a carga, assim a queda de tensão sobre o resistor shunt será pequena e a carga irá continuar com praticamente a mesma queda de tensão que havia antes.
+
+Após verificar a tensão sobre o resistor shunt a corrente é medida de forma indireta, usando a lei de Ohm, onde I = V/R.

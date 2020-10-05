@@ -6,7 +6,6 @@
 
 Montar um circuito retificador de meia onda utilizando resistores de 270Ω.
 Utilizar capacitores de 330μF e 2200μF.
-Utilizar fonte de tensão alternada 12Vp e 60 Hz.
 
 ###### Procedimento:
 
@@ -17,8 +16,6 @@ Utilizar fonte de tensão alternada 12Vp e 60 Hz.
 3 - Após isso, substituir o capacitor de 330μF por um de 2200μF, observar o formato da onda da tensão de saída e anotar os valores de solicitados.
 
 4 - Responder o que são resistores shunt e como determinar o valor do resistor para o circuito.
-
-5 - Montar um circuito para medir corrente utilizando ampop e resistor shunt.
 
 ### Simulação: Circuito retificador de meia onda sem capacitor
 
@@ -85,7 +82,8 @@ Com o aumento da capacitância do capacitor o valor da tensão de ripple diminui
 
 O valor máximo da corrente foi de 13,67A, o valor médio foi de 751,82mA e o valor eficaz foi de 2,74A.
 
-#### Preenchimento da tabela com os valores solicitados
+#### Preenchimento da tabela com os valores solicitados (V)
+
 ![p1tabela3](/resources/images/relat2/p1tabela.jpg)
 
 ### Resultados

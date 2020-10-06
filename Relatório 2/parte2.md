@@ -9,11 +9,11 @@ Utilizar capacitores de 220μF e 1000μF.
 
 ###### Procedimento:
 
-1 - Simular o circuito do retificador de onda completa, inicialmente sem capacitor e anotar os valores da tensão de pico, eficaz e média, os valores da máxima tensão reversa e a corrente sobre os diodos em uma tabela.
+1 - Simular o circuito do retificador de onda completa, inicialmente sem capacitor e anotar os valores da tensão de pico, eficaz e média sobre os diodos em uma tabela.
 
 2 - Em seguida, conectar um capacitor de 220μF e anotar os valores solicitados.
 
-3 - Após isso, substituir o capacitor de 330μF por um de 1000μF, observar o formato da onda da tensão de saída e anotar os valores de solicitados.
+3 - Após isso, substituir o capacitor de 220μF por um de 1000μF, observar o formato da onda da tensão de saída e anotar os valores de solicitados.
 
 ### Simulação: Circuito retificador de onda completa sem capacitor
 
@@ -55,11 +55,9 @@ Por conta da queda de tensão dos dois diodos em série, os sinais tem uma difer
 
 ![f11](/resources/images/relat2/p2media3.jpg)
 
-#### Preenchimento da tabela com os valores solicitados (V)
+### Preenchimento da tabela com os valores solicitados (V)
 
 ![f12](/resources/images/relat2/p2tabela.jpg)
-
-Resultados
 
 ### Comparação da tensão de saída nos três circuitos
 

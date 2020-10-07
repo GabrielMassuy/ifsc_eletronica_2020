@@ -20,3 +20,14 @@ Pelos cálculos foi concluido que o transistor se encontra polarizado na região
 ![f5](/resources/images/relat4/p2circ2_result.jpg)
 
 Os valores calculados ficaram bem próximos aos valores obtidos pela simulação, portanto o transistor está operando na região de saturação.
+
+## Parte 2b: Espelho de corrente com transistores do tipo NMOS
+Analise o seguinte circuito, onde R1 = 1,0 kΩ, VCC= 10,0 V. Para R2,variando entre 0 e 100kΩ.
+
+![f6](/resources/images/relat4/p2circ3.jpg)
+
+### Funcionamento do circuito
+
+O curto-circuito do Gate com o Dreno faz com que a corrente ID1 que passa sobre o transistor Q1 seja igual a (Vcc - Vgs)/R. A tensão Vgs polariza o transistor Q2, e como a corrente do transistor Q2 depende dos parâmetros físicos W, L, Kp, Vt, Vgs é o mesmo nos dois transistores e Q1 e Q1 são iguais, a corrente que passa por Q2 será a mesma que passa sobre Q1, portanto ID1 = ID2.
+
+### Traçar a curva ID2 x V2

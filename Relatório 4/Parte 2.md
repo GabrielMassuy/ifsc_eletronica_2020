@@ -28,7 +28,7 @@ Analise o seguinte circuito, onde R1 = 1,0 kΩ, VCC= 10,0 V. Para R2,variando en
 
 ### Funcionamento do circuito
 
-O curto-circuito do Gate com o Dreno faz com que a corrente ID1 que passa sobre o transistor Q1 seja igual a (Vcc - Vgs)/R1. A tensão Vgs polariza o transistor Q2, e como a corrente do transistor Q2 depende dos parâmetros físicos W, L, Kp, Vt, Vgs que são os mesmos nos dois transistores (Q1 e Q2 são iguais), a corrente que passa por Q2 será a mesma que passa sobre Q1, portanto ID1 = ID2.
+O curto-circuito do Gate com o Dreno faz com que a corrente ID1 que passa sobre o transistor Q1 seja igual a (Vcc - Vgs)/R1. A tensão Vgs polariza o transistor Q2, e como a corrente do transistor Q2 depende de seus parâmetros físicos W, L, Kp, Vt, Vgs que são os mesmos nos dois transistores (Q1 = Q2), a corrente que passa por Q2 será a mesma que passa sobre Q1, portanto ID1 = ID2.
 
 ### Traçar a curva ID2 x V2 (*tirar dúvida*)
 
@@ -50,4 +50,4 @@ Em um primeiro teste, as correntes que passam pelos resistores R1 e R2 apresenta
 ![f6](/resources/images/relat4/p3curva1.jpg)
 ![f6](/resources/images/relat4/p3curva2.jpg)
 
-Com o gráfico de corrente versus R2, é possível ver que as correntes continuam com os mesmos valores até 1203,60 ohms. O valor calculado da resistência máxima de R2 teve uma diferença de cerca de 180 ohms do valor obtido pela simulação. 
+Com o gráfico de corrente versus R2, é possível ver que as correntes continuam com os mesmos valores até 1203,60 ohms. O valor calculado da resistência máxima de R2 teve uma diferença de cerca de 180 ohms do valor obtido pela simulação.

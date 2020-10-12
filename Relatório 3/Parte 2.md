@@ -3,7 +3,7 @@ O cálculo de Vz foi feito conforme especificado pelo relatório.
 
 ![f6](/resources/images/relat3/p2calculo1.jpg)
 
-O valor de tensão escolhido para o diodo zener foi de 30V, e o modelo utilizado foi o EDZV30B da fabricante ROHM Semiconductor. O datasheet do modelo foi usado para saber o valor da corrente Iz (2mA).
+O valor de tensão escolhido para o diodo zener foi de 30V, e o modelo utilizado foi o EDZV30B (120mW) da fabricante ROHM Semiconductor. O datasheet do modelo foi usado para saber o valor da corrente Iz (2mA).
 
 ![f7](/resources/images/relat3/p2tabela.jpg)
 

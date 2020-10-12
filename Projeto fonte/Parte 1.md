@@ -27,6 +27,7 @@ Conforme foi visto na parte 2 do relatório 4, a tensão VCC esperada é de 32,5
 
 ![f4](/resources/images/fonte/figura4.jpg)
 
+
 #### Considerar:
 - AmpOp LM324
 - MOSFET IRF540
@@ -34,4 +35,22 @@ Conforme foi visto na parte 2 do relatório 4, a tensão VCC esperada é de 32,5
 - Iout = 1A
 - Vin+ = 12Vrms
 - Vripple (pós retificador) = 1V
-- Queda de tensão nos diosos = 0,7V
+- Queda de tensão nos diodos = 0,7V
+
+### Transformador e Circuito Retificador
+O transformador vai fazer a transformação de 220V para 12V (RMS). A frequência utilizada será a mesma de nossa rede elétrica (60Hz).
+
+O retificador que será utilizado é do tipo de onda completa com transformador em derivação. Considerando a queda de tensão em cada diodo de 0,7V, o valor de pico da tensão de saída do retificador será de aproximadamente 16,3V.
+
+#### Circuito do retificador
+![f5](/resources/images/fonte/bloco1.jpg)
+
+Na saída do circuito foi utilizado um resistor de 16,3 ohms para simular a corrente máxima de 1 A.
+
+#### Sinal da tensão no enrolamento primário (Vs)
+![f6](/resources/images/fonte/curva1.jpg)
+
+#### Sinal da tensão no enrolamento secundário (Vin+) e na saída do circuito (Vout)
+![f7](/resources/images/fonte/curva2.jpg)
+
+A tensão de pico na saída do circuito foi de 16,07V

@@ -22,8 +22,6 @@ Utilize a alimentação simétrica de +/-12V.
 
 4 - Verificar o que acontece se os dois resistores de 620Ω forem colocados na mesma entrada.
 
-5 - Discutir os resultados e justificar as dissimilaridades encontradas utilizando os dados do datasheet.
-
 ### Resultados calculados
 Utilizando um AmpOp ideal, fez-se o cálculo dos resistores R1 considerando que os resistores R2 deveriam ter o valor de 510kΩ e o ganho deveria ser de 10 V/V.
 

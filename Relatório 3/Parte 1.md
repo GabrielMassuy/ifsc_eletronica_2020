@@ -18,8 +18,8 @@ Utilizando o valor de pico da tensão de entrada calculou-se o valor esperado da
 ![f3](/resources/images/relat3/p1circ1.jpg)
 #### Tempo de inicialização
 ![f4](/resources/images/relat3/p1curva1.jpg)
-O circuito demorou cerca de 171ms para inicializar
+O circuito demorou cerca de 170ms para inicializar.
 
 #### Tensão de ripple
 ![f5](/resources/images/relat3/p1curva2.jpg)
-A tensão de ripple foi de 60mV
+A tensão de ripple foi de 60mV. O valor da tensão de saída da simulação ficou bem próximo do valor calculado inicialmente.

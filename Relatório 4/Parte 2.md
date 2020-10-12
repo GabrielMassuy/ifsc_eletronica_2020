@@ -12,7 +12,7 @@ Simular o seguinte circuito, onde Vcc = 9,0 V, R3 = R4 = 10 kΩ, R1 = 2 kΩ,R2 =
 
 ![f3](/resources/images/relat4/p2calculo1.jpg)
 
-Pelos cálculos foi concluido que o transistor se encontra polarizado na região de saturação.
+Pelos cálculos foi concluído que o transistor se encontra polarizado na região de saturação.
 
 ### Simulação do circuito
 
@@ -29,8 +29,6 @@ Analise o seguinte circuito, onde R1 = 1,0 kΩ, VCC= 10,0 V. Para R2,variando en
 ### Funcionamento do circuito
 
 O curto-circuito do Gate com o Dreno faz com que a corrente ID1 que passa sobre o transistor Q1 seja igual a (Vcc - Vgs)/R1. A tensão Vgs polariza o transistor Q2, e como a corrente do transistor Q2 depende de seus parâmetros físicos W, L, Kp, Vt, Vgs que são os mesmos nos dois transistores (Q1 = Q2), a corrente que passa por Q2 será a mesma que passa sobre Q1, portanto ID1 = ID2.
-
-### Traçar a curva ID2 x V2 (*tirar dúvida*)
 
 ### Cálculo do valor máximo de R2
 

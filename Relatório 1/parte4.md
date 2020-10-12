@@ -14,7 +14,7 @@ Utilize a alimentação simétrica de +/-12V.
 
 ###### Procedimento:
 
-1 - Depois de construir o circuito subtrator, simular os circuitos conforme  os exemplos dados.
+1 - Depois de construir o circuito subtrator, simular os circuitos conforme os exemplos dados.
 
 2 - Comparar os resultados da tensão de saída dos dois circuitos.
 
@@ -45,17 +45,19 @@ Circuito montado no LTspice, utilizando o modelo da Texas Instruments:
 
 ![p4onda1](/resources/images/relat1/p4onda1.jpg)
 
-A tensão de saída do circuito com o LM324N teve um valor de 95,14mV, enquanto que a tensão de saída com o circuito com o TL082 foi de 130,01mV.
+A tensão de saída do circuito com o LM324N teve um valor de 130,01mV, enquanto que a tensão de saída com o circuito com o TL082 foi de 95,14mV.
 
 ### Simulação: Comparação do sinal de saída dos circuitos com LM324N e TL082, sendo a tensão de entrada 0V
 ![p4onda2](/resources/images/relat1/p4onda2.jpg)
 
-Com a tensão de entrada igual a 0V, A tensão de saída do circuito com o LM324N foi de 31,43 mV e a tensão de saída do circuito com o LM324N foi de praticamente 0V.
+Com a tensão de entrada igual a 0V, A tensão de saída do circuito com o LM324N foi de 31,43 mV e a tensão de saída do circuito com o TL082 foi de 0,12 mV.
 
 ### Simulação: Comparação do sinal de saída dos circuitos com LM324N e TL082, com os dois resistores de 620Ω na mesma entrada.
 ![p4circ3](/resources/images/relat1/p4circ3.jpg)
 ![p4onda3](/resources/images/relat1/p4onda3.jpg)
 
-Com a tensão de entrada igual a 0V, A tensão de saída do circuito com o LM324N foi de 31,43 mV e a tensão de saída do circuito com o LM324N foi de praticamente 0V.
+A tensão de saída do circuito com o LM324N foi de 128,11 mV e a tensão de saída do circuito com o TL082 foi de 96,80mV.
 
-### Resultados (*falta fazer*)
+### Resultados
+
+Nos casos simulados a tensão de saída deveria ser de 0V conforme a expressão da tensão de saída que foi calculada, mas por conta das não idealidades que os ampops apresentam, foi visto que as tensões de saída foram apenas próximas de zero, nunca chegando a este valor.

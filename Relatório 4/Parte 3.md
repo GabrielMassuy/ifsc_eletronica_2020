@@ -15,7 +15,7 @@ Simular o circuito a seguir com os seguintes valores: R1 = 10 kΩ e VCC= 5,0 V.V
 
 O Rds calculado com Vin igual a 5V foi de 0,755 ohms e para Vin igual a 2,5V foi de 6,21 ohms.
 
-A tensão de saída, Vout, acaba dependendo de Rds. Sendo de 754,94µV para Vin igual a 5V e 1,55mV para Vin igual a 2,5V.
+A tensão de saída, Vout, acaba dependendo de Rds. Sendo de 377,47µV para Vin igual a 5V e 1,55mV para Vin igual a 2,5V.
 
 Quando Vin é igual a zero, Vg e Vs são iguais a zero, e portanto Vout acaba sendo igual a Vcc.
 
@@ -34,4 +34,4 @@ Quando Vin é igual a zero, Vg e Vs são iguais a zero, e portanto Vout acaba se
 ##### Valores de Vout
 ![f4](/resources/images/relat4/p4onda4.jpg)
 
-Como esperado Vout apresenta o mesmo valor de Vcc quando Vin é igual a 0. Os valores calculados de Vout foram menores do que os valores obtidos pelo gráfico da simulação. 
+Como esperado Vout apresenta o mesmo valor de Vcc quando Vin é igual a 0. Os valores calculados de Vout foram menores do que os valores obtidos pelo gráfico da simulação.

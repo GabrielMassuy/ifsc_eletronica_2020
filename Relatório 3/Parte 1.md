@@ -11,14 +11,15 @@ Pela análise, conclui-se que a tensão de saída do circuito dobrador (Vc2) ser
 ### Dimensionamento do Capacitor
 ![f2](/resources/images/relat3/p1calculo2.jpg)
 
-Utilizando o valor de pico da tensão de entrada e a corrente de saída do Ampop, e considerando uma tensão de ripple de 10%, foi calculado o valor dos capacitores para serem utilizados no circuito dobrador de tensão. O valor escolhido para o capacitor foi de 47µF por se tratar de um valor comercial fácil de se encontrar.
+Utilizando o valor de pico da tensão de entrada calculou-se o valor esperado da tensão de saída do circuito dobrador de tensão (32,54V). Com o valor esperado da tensão de saída, a corrente de saída do Ampop e considerando uma tensão de ripple de 10%, foi calculado o valor dos capacitores para serem utilizados no circuito dobrador de tensão. O valor escolhido para o capacitor foi de 47µF por se tratar de um valor comercial fácil de se encontrar.
 
 ### Simulação do Circuito
 
+![f3](/resources/images/relat3/p1circ1.jpg)
 #### Tempo de inicialização
-![f2](/resources/images/relat3/p1curva1.jpg)
+![f4](/resources/images/relat3/p1curva1.jpg)
 O circuito demorou cerca de 171ms para inicializar
 
 #### Tensão de ripple
-![f2](/resources/images/relat3/p1curva2.jpg)
+![f5](/resources/images/relat3/p1curva2.jpg)
 A tensão de ripple foi de 60mV

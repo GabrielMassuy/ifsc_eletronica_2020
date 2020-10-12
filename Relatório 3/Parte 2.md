@@ -17,7 +17,7 @@ Com Iz, o valor do resistor que irá ser conectado em série com diodo zener foi
 
 Com a inclusão do resistor e diodo zener a tensão de ripple da saída do dobrador de tensão foi de 0,51V, um aumento significativo quando comparado com a tensão de ripple da parte anterior do relatório.
 
-![f11](/resources/images/relat3/p2curva2.jpg)
+![f11](/resources/images/relat3/p3curva2.jpg)
 
 A tensão sobre o diodo zener foi de 29,93V.
 

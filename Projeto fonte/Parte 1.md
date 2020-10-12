@@ -22,3 +22,16 @@ Os valores de tensões de alimentação do ampop estão presentes em seu datashe
 Conforme foi visto na parte 2 do relatório 4, a tensão VCC esperada é de 32,54 V, porém a tensão de ripple irá aumentar significativamente com a adição de uma carga na saída VCC. Essa variação do valor de VCC irá se refletir na tensão de saída do ampop. Para diminuir essa tensão de ripple pode-se utilizar um circuito regulador do tipo série após o circuito dobrador de tensão, conforme a  imagem abaixo:
 
 ![f3](/resources/images/fonte/figura3.jpg)
+
+### Projetar o seguinte circuito
+
+![f4](/resources/images/fonte/figura4.jpg)
+
+#### Considerar:
+- AmpOp LM324
+- MOSFET IRF540
+- Vout = 15V
+- Iout = 1A
+- Vin+ = 12Vrms
+- Vripple (pós retificador) = 1V
+- Queda de tensão nos diosos = 0,7V

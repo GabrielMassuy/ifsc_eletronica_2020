@@ -72,3 +72,13 @@ O valor calculado para o capacitor foi de 9,17mF.
 ![f11](/resources/images/fonte/curva4.jpg)
 
 Com a adição do filtro, a tensão ficou variando entre 15,88V e 15,15V, portanto a tensão de ripple foi de 0,73V.
+
+### Circuito dobrador de tensão
+
+Antes de adicionar o regulador de tensão ao circuito principal, é necessário usar um dobrador de tensão para alimentar o ampop que será utilizado.
+
+Como foi visto na parte 1 do relatório 3, a tensão de saída esperada do circuito dobrador, considerando 12Vrms de entrada, é de 32,54V. O cálculo do valor dos capacitores para o circuito dobrador foi feito considerando a corrente de alimentação do ampop de 0,1A e Tensão de ripple de 10%.
+
+![f12](/resources/images/fonte/circ2.jpg)
+
+#####

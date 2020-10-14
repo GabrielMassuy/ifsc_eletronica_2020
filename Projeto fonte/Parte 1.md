@@ -79,16 +79,18 @@ Antes de adicionar o regulador de tensão ao circuito principal, é necessário 
 
 Como foi visto na parte 1 do relatório 3, a tensão de saída esperada do circuito dobrador, considerando 12Vrms de entrada, é de 32,54V. O cálculo do valor dos capacitores para o circuito dobrador foi feito considerando a corrente de alimentação do ampop de 0,1A e Tensão de ripple de 10%.
 
-![f12](/resources/images/fonte/circ2.jpg)
+![f12](/resources/images/fonte/calculo2.jpg)
+
+![f13](/resources/images/fonte/circ2.jpg)
 
 #### Tensão de saída do dobrador
 
-![f12](/resources/images/fonte/curva5.jpg)
+![f14](/resources/images/fonte/curva5.jpg)
 
 Leva cerca de 200 ms para a tensão de saída do dobrador atingir o valor esperado.
 
 Pelo datasheet do LM324 da fabricante Texas Instruments, a tensão de alimentação singular do ampop deve ser de 3 a 32V. Como a tensão de saída do circuito dobrador ultrapassar esse valor, pode-se utilizar um diodo zener para ser a referência de tensão de alimentação do ampop.
 
- ![f13](/resources/images/fonte/datasheet1.jpg)
+ ![f15](/resources/images/fonte/datasheet1.jpg)
 
 #### Adicionando referência com diodo zener ao circuito dobrador

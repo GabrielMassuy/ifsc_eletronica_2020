@@ -81,4 +81,14 @@ Como foi visto na parte 1 do relatório 3, a tensão de saída esperada do circu
 
 ![f12](/resources/images/fonte/circ2.jpg)
 
-#####
+#### Tensão de saída do dobrador
+
+![f12](/resources/images/fonte/curva5.jpg)
+
+Leva cerca de 200 ms para a tensão de saída do dobrador atingir o valor esperado.
+
+Pelo datasheet do LM324 da fabricante Texas Instruments, a tensão de alimentação singular do ampop deve ser de 3 a 32V. Como a tensão de saída do circuito dobrador ultrapassar esse valor, pode-se utilizar um diodo zener para ser a referência de tensão de alimentação do ampop.
+
+ ![f13](/resources/images/fonte/datasheet1.jpg)
+
+#### Adicionando referência com diodo zener ao circuito dobrador

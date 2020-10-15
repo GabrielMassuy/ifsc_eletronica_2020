@@ -117,13 +117,14 @@ No cálculo da relação, utilizou-se Vz como 10V e os resistores escolhidos for
 
 ### Circuito proposto montado
 
-O diodo zener D6 utilizado foi o UMZ10K (10V, 5mA, 200mW) da ROHM Semiconductor, o transistor utilizado é da fabricante Vishay e o ampop utilizado é da fabricante ON Semiconductor
+O diodo zener D6 utilizado foi o UMZ10K (10V, 5mA, 200mW) da ROHM Semiconductor, o transistor NMOS utilizado é da fabricante Vishay e o ampop utilizado é da fabricante ON Semiconductor
 
 ![f18](/resources/images/fonte/circ5.jpg)
 
 #### Tensão de saída Vout
-
+Tensão de saída sem carga:
 ![f19](/resources/images/fonte/curva10.jpg)
+
 
 O circuito demorou cerca de 27ms para inicializar e a tensão de saída permaneceu praticamente constante em 14,98V sem carga e com carga de 15, 1k e 100k ohms.
 

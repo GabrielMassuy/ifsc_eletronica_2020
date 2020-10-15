@@ -19,7 +19,7 @@ Os valores de tensões de alimentação do ampop estão presentes em seu datashe
 #### figura 02
 ![f2](/resources/images/fonte/figura2.jpg)
 
-Conforme foi visto na parte 1 do relatório 3, a tensão VCC esperada é de 32,54 V, porém a tensão de ripple irá aumentar significativamente com a adição de uma carga na saída VCC. Essa variação do valor de VCC irá se refletir na tensão de saída do ampop. Para diminuir essa tensão de ripple pode-se utilizar um circuito regulador do tipo série após o circuito dobrador de tensão, conforme a  imagem abaixo:
+Conforme foi visto na [parte 1 do relatório 3](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%203/Parte%201.md), a tensão VCC esperada é de 32,54 V, porém a tensão de ripple irá aumentar significativamente com a adição de uma carga na saída VCC. Essa variação do valor de VCC irá se refletir na tensão de saída do ampop. Para diminuir essa tensão de ripple pode-se utilizar um circuito regulador do tipo série após o circuito dobrador de tensão, conforme a  imagem abaixo:
 
 ![f3](/resources/images/fonte/figura3.jpg)
 
@@ -77,7 +77,7 @@ Com a adição do filtro, a tensão ficou variando entre 15,88V e 15,15V, portan
 
 Antes de adicionar o regulador de tensão ao circuito principal, é necessário usar um dobrador de tensão para alimentar o ampop que será utilizado.
 
-Como foi visto na parte 1 do relatório 3, a tensão de saída esperada do circuito dobrador, considerando 12Vrms de entrada, é de 32,54V. O cálculo do valor dos capacitores para o circuito dobrador foi feito considerando a corrente de alimentação do ampop de 0,1A e Tensão de ripple de 10%.
+Como foi visto na [parte 1 do relatório 3](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%203/Parte%201.md), a tensão de saída esperada do circuito dobrador, considerando 12Vrms de entrada, é de 32,54V. O cálculo do valor dos capacitores para o circuito dobrador foi feito considerando a corrente de alimentação do ampop de 0,1A e Tensão de ripple de 10%.
 
 ![f12](/resources/images/fonte/calculo2.jpg)
 
@@ -90,18 +90,43 @@ Como foi visto na parte 1 do relatório 3, a tensão de saída esperada do circu
 Leva cerca de 200 ms para a tensão de saída do dobrador atingir o valor esperado.
 
 #### Circuito regulador do dobrador
-Para diminuir essa oscilação utilizou-se um circuito regulador do tipo série na saída do dobrador de tensão. Como o LM324 (Texas Instruments) aceita alimentação singular de 3 a 32V foi utilizado o diodo Zener o UMZ27K (27V, 5mA, 200mW) da fabricante ROHM Semiconductor e o transistor utilizado foi o 2N3904 da NXP, por ter um hfe alto.
+Para evitar oscilações que possam vir a ocorrer na saída Vc2 com a alimentação do ampop, utilizou-se um circuito regulador do tipo série na saída do dobrador de tensão. Como o LM324 (ON semiconductor) aceita alimentação singular de 3 a 32V foi utilizado o diodo Zener UMZ27K (27V, 5mA, 200mW) da fabricante ROHM Semiconductor e o transistor utilizado foi o 2N3904 da NXP, por ter um hfe alto.
 
 A tensão esperada na saída é de 26,3V (Vz - VBE).
 
 ![f15](/resources/images/fonte/circ3.jpg)
 
+O método do cálculo da resistência em série com o diodo Zener foi apresentada na [parte 2 do relatório 3](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Relat%C3%B3rio%203/Parte%202.md).
 #### Nova tensão de saída do dobrador
 
-![f15](/resources/images/fonte/curva7.jpg)
+![f16](/resources/images/fonte/curva7.jpg)
 
 A tensão Vcc teve um valor de 26,5V
 
 ### Circuito regulador do tipo série com ampop
 
 Agora que o ampop já tem a alimentação Vcc, o circuito que irá regular a tensão pode ser construído.
+
+![f17](/resources/images/fonte/circ4.jpg)
+
+Para esse bloco a tensão de saída depende do valor de D6 e a relação entre R3 e R4. Como a tensão de saída já esta definida (15V), basta atribuir um valor para D6 e achar a relação entre R3 e R4.
+
+![f18](/resources/images/fonte/calculo5.jpg)
+
+No cálculo da relação, utilizou-se Vz como 10V e os resistores escolhidos foram de 5k e 10k ohms.
+
+### Circuito proposto montado
+
+O diodo zener D6 utilizado foi o UMZ10K (10V, 5mA, 200mW) da ROHM Semiconductor, o transistor utilizado é da fabricante Vishay e o ampop utilizado é da fabricante ON Semiconductor
+
+![f18](/resources/images/fonte/circ5.jpg)
+
+#### Tensão de saída Vout
+
+![f19](/resources/images/fonte/curva10.jpg)
+
+O circuito demorou cerca de 27ms para inicializar e a tensão de saída permaneceu praticamente constante em 14,98V sem carga e com carga de 15, 1k e 100k ohms.
+
+![f19](/resources/images/fonte/circ6.jpg)
+
+Com a carga de 15 ohms a tensão de ripple foi de 1,30mV.

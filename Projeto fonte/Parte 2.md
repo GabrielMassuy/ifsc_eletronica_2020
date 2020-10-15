@@ -38,3 +38,7 @@ A tensão de ripple foi de 505uV.
 ![f7](/resources/images/fonte/curva13.jpg)
 
 A tensão sobre o diodo zener ficou em 10V e a corrente sobre o diodo zener ficou oscilando entre 1,8 e 2 mA aproximadamente.
+
+### Podemos melhorar mais ainda? Que tal deixar essa fonte com valor ajustável? Como fazer isso?
+
+Um potenciômetro ligado em paralelo com diodo zener D6 possibilitaria mudar o valor da tensão de saída.

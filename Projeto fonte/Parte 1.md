@@ -89,8 +89,19 @@ Como foi visto na parte 1 do relatório 3, a tensão de saída esperada do circu
 
 Leva cerca de 200 ms para a tensão de saída do dobrador atingir o valor esperado.
 
-Pelo datasheet do LM324 da fabricante Texas Instruments, a tensão de alimentação singular do ampop deve ser de 3 a 32V. Como a tensão de saída do circuito dobrador ultrapassar esse valor, pode-se utilizar um diodo zener para ser a referência de tensão de alimentação do ampop.
+#### Circuito regulador do dobrador
+Para diminuir essa oscilação utilizou-se um circuito regulador do tipo série na saída do dobrador de tensão. Como o LM324 (Texas Instruments) aceita alimentação singular de 3 a 32V foi utilizado o diodo Zener o UMZ27K (27V, 5mA, 200mW) da fabricante ROHM Semiconductor e o transistor utilizado foi o 2N3904 da NXP, por ter um hfe alto.
 
- ![f15](/resources/images/fonte/datasheet1.jpg)
+A tensão esperada na saída é de 26,3V (Vz - VBE).
 
-#### Adicionando referência com diodo zener ao circuito dobrador
+![f15](/resources/images/fonte/circ3.jpg)
+
+#### Nova tensão de saída do dobrador
+
+![f15](/resources/images/fonte/curva7.jpg)
+
+A tensão Vcc teve um valor de 26,5V
+
+### Circuito regulador do tipo série com ampop
+
+Agora que o ampop já tem a alimentação Vcc, o circuito que irá regular a tensão pode ser construído.

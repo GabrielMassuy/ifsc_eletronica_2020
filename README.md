@@ -5,7 +5,7 @@ Relatórios e projetos da matéria de Eletrônica 2020/2
 Aluno: Gabriel Antônio Massuyama
 
 ## Projeto da Fonte
-### [Parte 1](hhttps://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Projeto%20fonte/Parte%201.md)
+### [Parte 1](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Projeto%20fonte/Parte%201.md)
 ### [Parte 2](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Projeto%20fonte/Parte%202.md)
 ### [Parte 3](https://github.com/GabrielMassuy/ifsc_eletronica_2020/blob/master/Projeto%20fonte/Parte%203.md)
 
